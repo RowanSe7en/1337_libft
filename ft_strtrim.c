@@ -6,7 +6,7 @@
 /*   By: brouane <brouane@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 21:50:19 by brouane           #+#    #+#             */
-/*   Updated: 2025/10/27 16:20:20 by brouane          ###   ########.fr       */
+/*   Updated: 2025/11/01 16:20:14 by brouane          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end--;
 	trim = malloc(sizeof(char) * ((end - start) + 2));
 	if (!trim)
-		return (0);
+		return (NULL);
 	i = 0;
 	while (start <= end)
 		trim[i++] = s1[start++];

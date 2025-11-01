@@ -6,7 +6,7 @@
 /*   By: brouane <brouane@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 22:49:07 by brouane           #+#    #+#             */
-/*   Updated: 2025/10/30 17:59:22 by brouane          ###   ########.fr       */
+/*   Updated: 2025/11/01 16:20:23 by brouane          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,7 @@ static char	**ft_split_words(char const *s, char c, char **s2, int num_words)
 		word_len = 0;
 		word++;
 	}
-	s2[word] = 0;
+	s2[word] = NULL;
 	return (s2);
 }
 

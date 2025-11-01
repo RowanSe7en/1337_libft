@@ -6,7 +6,7 @@
 /*   By: brouane <brouane@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/18 22:10:51 by brouane           #+#    #+#             */
-/*   Updated: 2025/10/27 16:20:24 by brouane          ###   ########.fr       */
+/*   Updated: 2025/11/01 15:29:39 by brouane          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,7 @@ char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 
-	i = 0;
-	while (s[i])
-		i++;
+	i = ft_strlen(s);
 	while (i >= 0)
 	{
 		if ((char)s[i] == c)
