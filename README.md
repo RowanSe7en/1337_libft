@@ -20,6 +20,10 @@
 
 ---
 
+## ✅ Project grade screenshot
+
+![Project screenshot](readme_asset/Screenshot.png)
+
 ## 📖 What is libft?
 
 **libft** is the very first project in the 42 curriculum. The premise is simple but foundational:
